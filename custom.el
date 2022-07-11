@@ -1,3 +1,4 @@
+(load-theme 'doom-city-lights t)
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 (global-set-key (kbd "<f9>") (lambda() (interactive)(find-file (concat doom-private-dir "custom.el"))))
